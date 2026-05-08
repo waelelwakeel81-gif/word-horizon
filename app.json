@@ -2,7 +2,7 @@
   "expo": {
     "name": "Agon Preview",
     "slug": "word-horizon",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -17,7 +17,7 @@
     },
     "android": {
       "package": "com.wael.wordhorizon",
-      "versionCode": 2,
+      "versionCode": 3,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -25,19 +25,21 @@
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "enableRecycleReactNativeInstances": false
+          }
+        }
+      ]
+    ],
     "extra": {
       "eas": {
         "projectId": "6bb08e6a-17ba-47ae-9bcc-4a6d5416f550"
       }
     },
-    "owner": "waelwordhorizons-organization",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ]
+    "owner": "waelwordhorizons-organization"
   }
 }
