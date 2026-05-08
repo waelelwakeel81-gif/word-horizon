@@ -6,7 +6,10 @@
     "preview": {
       "distribution": "internal"
     },
-    "production": {}
+    "production": {
+      "node": "20.x",
+      "yarn": false
+    }
   },
   "submit": {
     "production": {}
