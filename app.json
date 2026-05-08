@@ -27,10 +27,12 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "runtimeVersion": {
-      "policy": "appVersion"
+    "extra": {
+      "eas": {
+        "projectId": "dbcf8a55-9d0b-4c7d-96c7-1bf042562392"
+      }
     },
-    "owner": "arcadalabs",
+    "owner": "waelwordhorizons-organization",
     "platforms": [
       "ios",
       "android",
