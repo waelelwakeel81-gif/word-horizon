@@ -7,8 +7,8 @@
       "distribution": "internal"
     },
     "production": {
-      "node": "20.x",
-      "yarn": false
+      "node": "20.12.0",
+      "yarn": "false"
     }
   },
   "submit": {
